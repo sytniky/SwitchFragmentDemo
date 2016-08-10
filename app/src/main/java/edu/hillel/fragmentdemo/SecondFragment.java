@@ -17,6 +17,12 @@ public class SecondFragment extends Fragment {
     private int number;
     private TextView tv;
 
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        number = activity.getIntent().getIntExtra("extra", 0);
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -24,12 +30,6 @@ public class SecondFragment extends Fragment {
         tv = (TextView) view.findViewById(R.id.tvText2);
         tv.setText(String.valueOf(number));
         return view;
-    }
-
-    @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
-        number = activity.getIntent().getIntExtra("extra", 0);
     }
 
     public void setText(String txt) {
