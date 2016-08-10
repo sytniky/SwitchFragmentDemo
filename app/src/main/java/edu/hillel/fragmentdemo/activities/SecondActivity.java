@@ -1,7 +1,8 @@
-package edu.hillel.fragmentdemo;
+package edu.hillel.fragmentdemo.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import edu.hillel.fragmentdemo.R;
 
 /**
  * Created by yuriy on 07.08.16.

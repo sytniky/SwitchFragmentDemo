@@ -9,7 +9,7 @@
         android:id="@+id/fgFragment1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="edu.hillel.fragmentdemo.FirstFragment"
+        android:name="edu.hillel.fragmentdemo.fragments.FirstFragment"
         tools:layout="@layout/first_fragment"
         android:layout_weight="1"/>
 
@@ -17,7 +17,7 @@
         android:id="@+id/fgFragment2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="edu.hillel.fragmentdemo.SecondFragment"
+        android:name="edu.hillel.fragmentdemo.fragments.SecondFragment"
         tools:layout="@layout/second_fragment"
         android:layout_weight="1"/>
 

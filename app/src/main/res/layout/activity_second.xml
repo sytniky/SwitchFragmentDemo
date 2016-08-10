@@ -9,7 +9,7 @@
         android:id="@+id/fgFragment2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="edu.hillel.fragmentdemo.SecondFragment"
+        android:name="edu.hillel.fragmentdemo.fragments.SecondFragment"
         tools:layout="@layout/second_fragment" />
 
 </LinearLayout>
